@@ -1,0 +1,48 @@
+@media (max-width: 990px){
+    form{
+        flex-direction: column;
+    }
+    .our .our__img {
+        
+        margin-top: 15px;
+    }
+    .about .about__img img {
+        max-width: 250px;
+       
+    }
+
+}
+@media (max-width: 976px){
+    .about__img {
+        display: none;
+    }
+
+}
+@media (max-width: 790px){
+    footer form input#exampleInputEmail1 {
+        width: 150px;
+        
+    }
+    footer form textarea#exampleFormControlTextarea1 {
+        width: 100%;
+        
+    }
+    footer form {
+        flex-direction: column;
+    }
+    footer form input#exampleInputEmail1 {
+        width: 100%;
+    }
+    .btn:not(:disabled):not(.disabled) {
+        
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 350px){
+    h2{
+        font-size: 35px;
+    }
+
+}
+
