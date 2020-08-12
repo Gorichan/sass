@@ -203,7 +203,7 @@ header {
             left: 40%;
             img {
                 margin: 25% auto;
-                height: 30px;
+                max-width: 30px;
             }
         }
         .our-text img {
@@ -314,7 +314,8 @@ footer {
             background: #4444;
         }
         textarea#exampleFormControlTextarea1 {
-            width: 310px;
+            max-width: 100%;
+            width: 220px;
             height: 100px;
             background: #4444;
             resize: none;

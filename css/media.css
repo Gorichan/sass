@@ -10,12 +10,19 @@
         max-width: 250px;
        
     }
+    .btn:not(:disabled):not(.disabled) {
+        margin-bottom: 15px;
+    }
+    header .header__content h1 {
+        
+        padding-top: 0;
+    }
 
 }
 @media (max-width: 976px){
-    .about__img {
+    /* .about__img {
         display: none;
-    }
+    } */
 
 }
 @media (max-width: 790px){
