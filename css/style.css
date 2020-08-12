@@ -289,11 +289,13 @@ footer form input {
 footer form input#exampleInputEmail1 {
   width: 180px;
   background: #4444;
+  color: #fff;
 }
 footer form textarea#exampleFormControlTextarea1 {
   max-width: 100%;
   width: 220px;
   height: 100px;
   background: #4444;
+  color: #fff;
   resize: none;
 }
